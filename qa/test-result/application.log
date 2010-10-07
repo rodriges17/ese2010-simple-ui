@@ -1,0 +1,116 @@
+06 Okt 2010 12:54:39,071 INFO  ~ Starting C:\Users\Admin\qa
+06 Okt 2010 12:54:40,901 INFO  ~ 
+06 Okt 2010 12:54:40,902 INFO  ~ Go to http://localhost:9000/@tests to run the tests
+06 Okt 2010 12:54:40,904 INFO  ~ 
+06 Okt 2010 12:54:40,904 WARN  ~ You're running Play! in DEV mode
+06 Okt 2010 12:54:41,191 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+06 Okt 2010 12:54:56,981 INFO  ~ Connected to jdbc:hsqldb:mem:playembed
+06 Okt 2010 12:54:57,154 INFO  ~ Application 'Knowledge Base' is now started !
+06 Okt 2010 12:59:14,857 ERROR ~ 
+
+@64433pcg9
+Internal Server Error (500) for request GET /@tests/init
+
+Compilation error (In /test/BasicTest.java around line 11)
+The file /test/BasicTest.java could not be compiled. Error raised is : The method save() is undefined for the type User
+
+play.exceptions.JavaCompilationException: The method save() is undefined for the type User
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:240)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:551)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:409)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:271)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:253)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:250)
+	at play.Play.detectChanges(Play.java:476)
+	at play.Invoker$Invocation.init(Invoker.java:98)
+	at Invocation.HTTP Request(Play!)
+06 Okt 2010 12:59:26,625 ERROR ~ 
+
+@64433pcga
+Internal Server Error (500) for request GET /@tests/end?result=passed
+
+Compilation error (In /test/BasicTest.java around line 11)
+The file /test/BasicTest.java could not be compiled. Error raised is : The method save() is undefined for the type User
+
+play.exceptions.JavaCompilationException: The method save() is undefined for the type User
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:240)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:551)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:409)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:271)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:253)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:250)
+	at play.Play.detectChanges(Play.java:476)
+	at play.Invoker$Invocation.init(Invoker.java:98)
+	at Invocation.HTTP Request(Play!)
+06 Okt 2010 12:59:55,063 ERROR ~ 
+
+@64433pcgb
+Internal Server Error (500) for request GET /@tests/init
+
+Compilation error (In /test/BasicTest.java around line 11)
+The file /test/BasicTest.java could not be compiled. Error raised is : The method save() is undefined for the type User
+
+play.exceptions.JavaCompilationException: The method save() is undefined for the type User
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:240)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:551)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:409)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:271)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:253)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:250)
+	at play.Play.detectChanges(Play.java:476)
+	at play.Invoker$Invocation.init(Invoker.java:98)
+	at Invocation.HTTP Request(Play!)
+06 Okt 2010 13:00:07,737 ERROR ~ 
+
+@64433pcgc
+Internal Server Error (500) for request GET /@tests/end?result=passed
+
+Compilation error (In /test/BasicTest.java around line 11)
+The file /test/BasicTest.java could not be compiled. Error raised is : The method save() is undefined for the type User
+
+play.exceptions.JavaCompilationException: The method save() is undefined for the type User
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:240)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:551)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:409)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:271)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:253)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:250)
+	at play.Play.detectChanges(Play.java:476)
+	at play.Invoker$Invocation.init(Invoker.java:98)
+	at Invocation.HTTP Request(Play!)
+06 Okt 2010 13:01:00,512 ERROR ~ 
+
+@64433pcgd
+Internal Server Error (500) for request GET /@tests/init
+
+Compilation error (In /test/BasicTest.java around line 14)
+The file /test/BasicTest.java could not be compiled. Error raised is : Duplicate local variable bob
+
+play.exceptions.JavaCompilationException: Duplicate local variable bob
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:240)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:551)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:409)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:271)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:253)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:250)
+	at play.Play.detectChanges(Play.java:476)
+	at play.Invoker$Invocation.init(Invoker.java:98)
+	at Invocation.HTTP Request(Play!)
+06 Okt 2010 13:01:14,109 ERROR ~ 
+
+@64433pcge
+Internal Server Error (500) for request GET /@tests/end?result=passed
+
+Compilation error (In /test/BasicTest.java around line 14)
+The file /test/BasicTest.java could not be compiled. Error raised is : Duplicate local variable bob
+
+play.exceptions.JavaCompilationException: Duplicate local variable bob
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:240)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:551)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:409)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:271)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:253)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:250)
+	at play.Play.detectChanges(Play.java:476)
+	at play.Invoker$Invocation.init(Invoker.java:98)
+	at Invocation.HTTP Request(Play!)
