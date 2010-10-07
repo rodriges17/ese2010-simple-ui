@@ -1,11 +1,6 @@
-# you describe your data using the YAML notation here
-# and then load them using Fixtures.load("data.yml")
-
-# Test data
-
 User(bob):
     password:       secret
-    name:     		Bob
+    name:           Bob
     
 User(jeff):
     password:       secret
@@ -53,4 +48,4 @@ Comment(c3):
                     This post is useless ?
     timestamp:      2009-04-05
     question:       secondBobQuestion
-	
+     

@@ -13,21 +13,21 @@ User(jeff):
     
 Question(firstBobPost):
     title:          About the Knowledge Base
-    postedAt:       2009-06-14
+    timestamp:      2009-06-14
     owner:          bob
     content:        >
                     How does this "Knowledge Base" work?
 
 Question(secondBobPost):
     title:          Just a test of qa
-    postedAt:       2009-03-25
+    timestamp:      2009-03-25
     owner:          bob
     content:        >
                     Well, it's just a test.
                     
 Question(jeffPost):
     title:          The MVC application
-    postedAt:       2009-06-06
+    timestamp:      2009-06-06
     owner:          jeff
     content:        >
                     Does a Play! application follows the MVC architectural pattern as applied to the 
@@ -37,20 +37,20 @@ Answer(c1):
     owner:          Guest
     content:        >
                     It's straightforward !
-    postedAt:       2009-06-14
+    timestamp:      2009-06-14
     question:       firstBobQuestion
     
 Comment(c2):
     owner:          Mike
     content:        >
                     I knew that ...
-    postedAt:       2009-06-15
+    timestamp:      2009-06-15
     question:       firstBobQuestion    
     
 Comment(c3):
     owner:          Tom
     content:        >
                     This post is useless ?
-    postedAt:       2009-04-05
+    timestamp:      2009-04-05
     question:       secondBobQuestion
 	

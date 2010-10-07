@@ -10,9 +10,9 @@ public class User {
 	private ArrayList<Answer> answers;
 	private ArrayList<Vote> votes;
 
-	public User(String name, String password){
+	public User(String name){
 		this.name = name;
-		this.password = password;
+		//this.password = password;
 		this.questions = new ArrayList<Question>();
 		this.answers = new ArrayList<Answer>();
 		this.votes = new ArrayList<Vote>();

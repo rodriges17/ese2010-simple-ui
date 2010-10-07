@@ -12,10 +12,10 @@ import com.sun.jmx.snmp.Timestamp;
  */
 public class AbstractPost implements IVoteable{
 
-	protected String content;
-	protected User owner;
-	protected Timestamp timestamp;
-	protected ArrayList<Vote> voting;
+	String content;
+	User owner;
+	Timestamp timestamp;
+	ArrayList<Vote> voting;
 
 	public AbstractPost(String content, User owner) {
 		this.content = content;

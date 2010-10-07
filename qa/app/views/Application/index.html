@@ -2,3 +2,32 @@
 #{set title:'Home' /}
 
 <h1>A Knowledge Base will be there</h1>
+
+#{ifnot users}
+	<p>
+		No users
+	</p>
+#{/ifnot}
+
+<ul>
+	#{list items:users, as:'user'}
+		<li>
+			${user.name}
+		</li>
+	#{/list}
+</ul>
+
+<p>
+	<a id="createUser" href="#">Create a new user</a>
+</p>
+
+<script type="text/javascript" charset="utf-8">
+	//create a user
+	$('#createUser').click(function() {
+		$.post('@{createUser()}',{name: prompt('username?')}, function(user) {
+			$('ul').prepend(
+				'<li><id="'+user.id+'">'+user.name+'</li>'
+			)
+		}, 'json')
+	})
+</script>

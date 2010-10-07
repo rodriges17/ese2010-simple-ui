@@ -4,15 +4,15 @@ import java.util.ArrayList;
 
 public class User {
 
-	private String name;
-	private String password;
-	private ArrayList<Question> questions;
-	private ArrayList<Answer> answers;
-	private ArrayList<Vote> votes;
+	String name;
+	String password;
+	ArrayList<Question> questions;
+	ArrayList<Answer> answers;
+	ArrayList<Vote> votes;
 
-	public User(String name, String password){
+	public User(String name){
 		this.name = name;
-		this.password = password;
+		//this.password = password;
 		this.questions = new ArrayList<Question>();
 		this.answers = new ArrayList<Answer>();
 		this.votes = new ArrayList<Vote>();

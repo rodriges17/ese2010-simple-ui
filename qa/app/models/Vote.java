@@ -7,9 +7,9 @@ package models;
  */
 public class Vote {
 	
-	private User voter;
-	private AbstractPost receiver;
-	private int voting;
+	User voter;
+	AbstractPost receiver;
+	int voting;
 
 	public Vote(User voter, AbstractPost receiver, int value) {
 		this.voter = voter;

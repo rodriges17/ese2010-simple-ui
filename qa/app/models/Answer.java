@@ -5,7 +5,7 @@ package models;
  */
 
 public class Answer extends AbstractPost implements IVoteable{
-	private Question correspondingQuestion;
+	Question correspondingQuestion;
 
 	public Answer(String content, User owner, Question question){
 		super(content, owner);
